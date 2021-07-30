@@ -51,9 +51,6 @@ else
 end if;
 end function;
 
-// P:=[<0,0>,<3,5>,<7,9>,<8,12>]; [h1,h2]=[<-1,1>,<1,0>]
-// P:=[<0,0>,<2,3>,<2,7>,<4,8>]; [h1,h2]=[<1,-2>,<0,1>]
-
 function LatticeSize(P);
 terminate:=0;
 count:=0; //number of iterations
